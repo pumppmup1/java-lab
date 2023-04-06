@@ -7,6 +7,7 @@ public class Main {
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		scanner.close();
+
 		int total = a + b;
 		System.out.println(total);
 	}
