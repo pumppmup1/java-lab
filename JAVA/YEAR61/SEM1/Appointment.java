@@ -30,10 +30,11 @@ public class Appointment {
             bm12 = bm2;
         } else {
             // bh1 == bh2, Need Check Minute
-            bh12 = bh1;
             if (bm1 > bm2) {
+                bh12 = bh1;
                 bm12 = bm1;
             } else {
+                bh12 = bh2;
                 bm12 = bm2;
             }
         }
@@ -47,10 +48,11 @@ public class Appointment {
             em12 = em2;
         } else {
             // eh1 == eh2, Need Check Minute
-            eh12 = eh1;
             if (em1 < em2) {
+                eh12 = eh1;
                 em12 = em1;
             } else {
+                eh12 = eh2;
                 em12 = em2;
             }
         }
